@@ -15,22 +15,42 @@
 ⚡ Fast Build – Powered by Vite
  for lightning-fast development and builds.
 
-🚀 Getting Started
-1. Clone the repository
-git clone https://github.com/your-username/quizit.git
+🚀 How to Run the Project
+
+Follow these steps to set up and run the project locally:
+
+1. Clone the Repository
+git clone https://github.com/rootsolve12/Quizit.git
 cd quizit
 
-2. Install dependencies
+2. Install Dependencies
+
+Make sure you have Node.js (v18+) and npm installed, then run:
+
 npm install
 
-3. Start development server
+3. Start Development Server
+
+Launch the Vite dev server:
+
 npm run dev
 
-4. Build for production
-npm run build
 
-5. Preview production build
+You’ll see a local server URL (usually: http://localhost:5173).
+
+4. Open in Browser
+
+Navigate to the shown URL in your browser to interact with the quiz app.
+
+5. Build for Production (Optional)
+
+To create a production-ready build:
+
+npm run build
 npm run preview
+
+
+Then open the preview URL to test the optimized build.
 
 🛠 Project Structure
 quizit/
